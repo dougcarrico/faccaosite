@@ -31,8 +31,23 @@ h2 {
 
 }
 
-#siga img{
+#social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#social a{
+    display: flex;
+    flex-direction: row;
     width: 40px;
-    height: 40px;
     padding: 0 8px;
+
+}
+
+.logo-social{
+    display: flex;
+    max-height: 40px;
+    color: white;
 }
