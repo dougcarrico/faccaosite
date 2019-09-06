@@ -35,14 +35,22 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
 
+#social-1 {
+    display: flex;
+}
+
+#social-2 {
+    display: flex;
 }
 
 #social a{
     display: flex;
     flex-direction: row;
     width: 40px;
-    padding: 0 8px;
+    padding: 8px 16px;
 
 }
 
