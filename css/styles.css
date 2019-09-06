@@ -36,6 +36,14 @@ z-index: -1000;
 
 #logo {
     margin-bottom: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#logo img {
+    max-width: 210px;
 }
 
 #contato {
