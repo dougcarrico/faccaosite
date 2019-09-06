@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0 0;
     font-family: 'Open Sans', sans-serif;
     color: white;
     background-color: black;
@@ -24,6 +24,7 @@ header {
 background-image: url(../img/background.png);
 background-size: 100%;
 background-repeat: no-repeat;
+background-position-x: center;
 content: "";
 position: absolute;
 top: 0;
@@ -34,17 +35,18 @@ z-index: -1000;
 }
 
 #logo {
-    margin-bottom: 160px;
+    margin-bottom: 156px;
 }
 
 #contato {
-    /* text-align: center; */
     font-size: 14px;
+    padding: 16px;
     margin-bottom: 56px;
+    background-color: black;
 }
 
 #siga{
-    margin-bottom: 56px;
+    margin-bottom: 40px;
 }
 
 #social {
@@ -78,6 +80,7 @@ z-index: -1000;
 
 #clipes{
     margin-bottom: 56px;
+
 }
 .clipe {
  width:328px; 
@@ -88,4 +91,29 @@ z-index: -1000;
 
 #ouça {
     margin-bottom: 56px;
+}
+
+@media (max-width: 320px) {
+    #container::before {
+    background-size:320px;
+    }
+    .clipe {
+        width:287px; 
+        height: 160px;
+        border: 2px solid white;;
+        margin-bottom: 16px;
+       }
+
+}
+
+@media (min-width: 400px) {
+    #container::before {
+    background-size:400px;
+    }
+}
+
+@media (min-width: 520px) {
+    #social{
+        flex-direction: row;
+    }
 }
