@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+#container {
+    background-image: url(../img/background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+}
+
+#logo {
+    margin-bottom: 160px;
+}
+
+#contato {
+    /* text-align: center; */
+    font-size: 12px;
+
+}
+
+#siga img{
+    width: 40px;
+    height: 40px;
+    padding: 0 8px;
+}
