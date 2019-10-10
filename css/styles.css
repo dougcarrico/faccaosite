@@ -88,12 +88,11 @@ z-index: -1000;
 
 #clipes{
     margin-bottom: 56px;
-
 }
 .clipe {
  width:328px; 
  height: 183px;
- border: 2px solid white;;
+ border: 2px solid white;
  margin-bottom: 16px;
 }
 
@@ -101,18 +100,6 @@ z-index: -1000;
     margin-bottom: 56px;
 }
 
-@media (max-width: 320px) {
-    #container::before {
-    background-size:320px;
-    }
-    .clipe {
-        width:287px; 
-        height: 160px;
-        border: 2px solid white;;
-        margin-bottom: 16px;
-       }
-
-}
 
 @media (min-width: 400px) {
     #container::before {
@@ -120,8 +107,56 @@ z-index: -1000;
     }
 }
 
-@media (min-width: 520px) {
+@media (min-width: 520px) {   
     #social{
         flex-direction: row;
     }
+}
+
+@media (min-width: 700px) {
+    header {
+        padding-top: 16px;
+    }
+    #container::before {
+        background-size: 700px;
+        opacity: .45;
+        }
+
+    #logo {
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #logo img {
+        max-width: 290px;
+    }
+
+    #contato {
+        background-color: transparent;
+        margin-bottom: 16px;
+    }
+
+    #container-clipes{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #container-clipes article {
+        margin: 0 16px; 
+    }
+
+    #clipes{
+        margin-bottom: 32px;;
+    }
+
+    .clipe {
+        border: 2px solid black;
+    }
+
+    #ouça {
+        margin-bottom: 0;
+    }
+
 }
