@@ -93,6 +93,7 @@ header {
  width:328px; 
  height: 183px;
  border: 2px solid white;
+ border-radius: 8px;
  margin-bottom: 16px;
 }
 
@@ -144,10 +145,6 @@ header {
 
     #clipes{
         margin-bottom: 32px;;
-    }
-
-    .clipe {
-        border: 2px solid black;
     }
 
     #ouça {
